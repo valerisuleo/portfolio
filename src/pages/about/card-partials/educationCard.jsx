@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import BootstrapCard from "../../../common/bootstrap-card/bootstrapCard";
+import BootstrapCard from "../../../components/common/bootstrap-card/bootstrapCard"
 
 class EducationCard extends Component {
     renderAside() {
@@ -8,7 +9,7 @@ class EducationCard extends Component {
         return (
             <div className="logo-frame">
                 <img
-                    src={require(`../../../../images/${directory}/${path}.jpg`)}
+                    src={require(`../../../images/${directory}/${path}.jpg`)}
                     className="card-img"
                 />
             </div>

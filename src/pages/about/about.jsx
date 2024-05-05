@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
 import "./about.scss";
-import * as http from "../../../services/aboutService";
+import * as http from "../../services/aboutService";
 import highChartBarOptions from "./highChartBarOptions";
 
-import BootstrapJumbotron from "../../common/bootstrap-jumbotron/bootstrapJumbotron";
+import BootstrapJumbotron from "../../components/common/bootstrap-jumbotron/bootstrapJumbotron";
 import ExperienceCard from "./card-partials/experinceCard";
 import EducationCard from "./card-partials/educationCard";
 import BarSkillsCard from "./card-partials/barCard";

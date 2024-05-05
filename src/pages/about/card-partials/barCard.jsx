@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import BootstrapCard from "../../../common/bootstrap-card/bootstrapCard";
-import BarGraph from "../../../common/bar-graph/barGraph";
+import BootstrapCard from "../../../components/common/bootstrap-card/bootstrapCard";
+import BarGraph from "../../../components/common/bar-graph/barGraph";
 
 class BarSkillsCard extends Component {
     renderAside() {
@@ -9,9 +9,9 @@ class BarSkillsCard extends Component {
         let source;
 
         if (!isGifChanged) {
-            source = require(`../../../../images/about/player.gif`);
+            source = require(`../../../images/about/player.gif`);
         } else {
-            source = require(`../../../../images/about/won.gif`);
+            source = require(`../../../images/about/won.gif`);
         }
 
         return (
