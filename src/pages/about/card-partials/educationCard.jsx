@@ -9,7 +9,7 @@ class EducationCard extends Component {
         return (
             <div className="logo-frame">
                 <img
-                    src={require(`../../../images/${directory}/${path}.jpg`)}
+                    src={require(`../../../assets/images/${directory}/${path}.jpg`)}
                     className="card-img"
                 />
             </div>

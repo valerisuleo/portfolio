@@ -25,7 +25,7 @@ class ProjectsCard extends Component {
 
         return (
             <img
-                src={require(`../../images/${directory}/${imgName}.jpg`)}
+                src={require(`../../assets/images/${directory}/${imgName}.jpg`)}
                 className="card-img"
             />
         );

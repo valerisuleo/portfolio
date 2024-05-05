@@ -9,9 +9,9 @@ class BarSkillsCard extends Component {
         let source;
 
         if (!isGifChanged) {
-            source = require(`../../../images/about/player.gif`);
+            source = require(`../../../assets/images/about/player.gif`);
         } else {
-            source = require(`../../../images/about/won.gif`);
+            source = require(`../../../assets/images/about/won.gif`);
         }
 
         return (

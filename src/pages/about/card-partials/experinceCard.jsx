@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
 import BootstrapCard from "../../../components/common/bootstrap-card/bootstrapCard";
 import './card.scss'
@@ -10,7 +11,7 @@ class ExperienceCard extends Component {
         return (
             <div className="logo-frame">
                 <img
-                    src={require(`../../../images/${directory}/${path}.jpg`)}
+                    src={require(`../../../assets/images/${directory}/${path}.jpg`)}
                     className="card-img"
                 />
             </div>

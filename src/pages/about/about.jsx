@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./about.scss";
-import * as http from "../../services/aboutService";
+import * as http from "./service";
 import highChartBarOptions from "./highChartBarOptions";
 
 import BootstrapJumbotron from "../../components/common/bootstrap-jumbotron/bootstrapJumbotron";

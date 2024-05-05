@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Circle from "./circle";
 import "./home.scss";
-import soundClick from "../../sounds/click.wav";
-import soundCursor from "../../sounds/cursor.wav";
-import soundHeartBeat from "../../sounds/beat.mp3";
+import soundClick from "../../assets/sounds/click.wav";
+import soundCursor from "../../assets/sounds/cursor.wav";
+import soundHeartBeat from "../../assets/sounds/beat.mp3";
 
 class Home extends Component {
     state = {
