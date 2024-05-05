@@ -1,10 +1,10 @@
 import React, {  } from "react";
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./components/views/home/home";
-import Portfolio from "./components/views/portfolio/portfolio";
-import About from "./components/views/about/about";
-import Contact from "./components/views/contact/contact";
-import Layout from "./router/layout";
+import Home from "../components/views/home/home";
+import Portfolio from "../components/views/portfolio/portfolio";
+import About from "../components/views/about/about";
+import Contact from "../components/views/contact/contact";
+import Layout from "./layout";
 
 export const router = createBrowserRouter([
     {

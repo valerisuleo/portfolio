@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
-import { router } from "./router";
+import { router } from "./router/router";
 import { RouterProvider } from "react-router-dom";
 
 class App extends Component {
