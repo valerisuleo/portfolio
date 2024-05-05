@@ -78,7 +78,7 @@ class Contact extends Component {
                                                 </a>
                                             </p>
                                             <p>www.valerisuleo.it</p>
-                                            <p>
+                                            {/* <p>
                                                 <a href="tel:07930226925">
                                                     +44 7930 22.69.25
                                                 </a>
@@ -87,7 +87,7 @@ class Contact extends Component {
                                                 <a href="tel:00393332520570">
                                                     +39 333 25.20.570
                                                 </a>
-                                            </p>
+                                            </p> */}
                                             <p>
                                                 <a href="mailto:valerio.risuleo@gmail.com">
                                                     valerio.risuleo@gmail.com

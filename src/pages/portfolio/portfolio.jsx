@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import * as http from "../../../services/porfolioService";
+import * as http from "../../services/porfolioService";
 import ProjectsCard from './projectsCard'
 
 class Portfolio extends Component {

@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import BootstrapCard from "../../common/bootstrap-card/bootstrapCard";
-import BtnCustom from "../../common/btn-custom/btnCustom";
+import BootstrapCard from "../../components/common/bootstrap-card/bootstrapCard";
+import BtnCustom from "../../components/common/btn-custom/btnCustom";
 
 class ProjectsCard extends Component {
 
@@ -24,7 +25,7 @@ class ProjectsCard extends Component {
 
         return (
             <img
-                src={require(`../../../images/${directory}/${imgName}.jpg`)}
+                src={require(`../../images/${directory}/${imgName}.jpg`)}
                 className="card-img"
             />
         );

@@ -1,94 +1,79 @@
 const about = {
     experience: [
         {
-            title: "Junior Front-end Developer",
-            company: "appScatter",
-            timeWindow: "Apr 2019 - Feb 2020",
+            title: "Senior Full Stack Developer",
+            company: "ClickASnap",
+            timeWindow: "2023 - Present",
             where: "London, UK",
             description:
-                "appScatter is a post IPO start-up based in central London. Tehy are developing a mobile app distribution platform that deploys our client’s apps to multiple app stores worldwide Working for this company helped me to obtain a solid understanding of JS object orientated development, allowed me to work on a large-scale commercial application and gave me a significant working experience with agile methodologies, Angular 8, Typescript, Karma, Jasmine, Cypress, Highcharts",
-            
+                "Developed and maintained the pattern library utilizing Storybook to ensure consistent UI components across projects. Acted as the 'keeper' of the library, overseeing the integration and standardization of components, hooks, and global services. Crafted numerous reusable components and services, significantly enhancing development efficiency and code quality. Worked with Amazon DynamoDB, Jest, JavaScript, React.js, Node.js, TypeScript, and Express.js, contributing to the development of scalable and maintainable web applications."
         },
         {
-            title: "Junior Software engineer",
+            title: "Senior Front-end Developer",
+            company: "Virgin",
+            timeWindow: "2021 - 2023",
+            where: "London, UK",
+            description:
+                "Spearheaded the documentation process for new starter onboarding. Developed and maintained reusable components for team use. Managed workload distribution among team members and mentored junior developers. Involved in code review, unit testing, and responsive design using Bootstrap grid. Collaborated with designers and project managers to integrate solutions with existing codebases."
+        },
+        {
+            title: "Product Developer",
+            company: "NetSupport",
+            timeWindow: "2020 - 2021",
+            where: "London, UK",
+            description:
+                "Specialized in UI development using Material Design for Angular. Designed schemas for backend developers to optimize REST API responses. Integrated real-time communication in applications using WebRTC and ReactJS."
+        },
+        {
+            title: "Front-end Developer",
+            company: "appScatter",
+            timeWindow: "2019 - 2020",
+            where: "London, UK",
+            description:
+                "Developed a mobile app distribution platform enhancing my skills in JS object-oriented development. Gained significant experience in Agile methodologies, Angular 8, and various testing frameworks."
+        },
+        {
+            title: "Junior Software Engineer",
             company: "Indra",
-            timeWindow: "Feb 2018 - Mar 2019",
+            timeWindow: "2018 - 2019",
             where: "Rome, Italy",
             description:
-                "My responsibilities as Fed includes translation of the UI/UX design wireframes to actualcode that will produce visual elements of the application. I work with the UI/UX designer and fill the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.",
-            
+                "Translated UI/UX designs into functional web components. Played a key role in developing a wizard application for the Bank of Italy."
         },
         {
-            title: "Co-Founder and Web Designer",
+            title: "Co-Founder, Web Designer, Radio Host, and Blogger",
             company: "V-Quadro",
-            timeWindow: "Oct 2012 – Dec 2014",
+            timeWindow: "2012 - 2014",
             where: "Rome, Italy",
             description:
-                "Having been in this company for over two years, I have largely contributed in meeting corporate objectives through effective blogging, thereby driving traffic to our websites and increasing our web visitors. I am very passionate about creating web contents, and knowledgeable in HTML, CSS and SEO.",
-            
-        },
-        {
-            title: "Administrative Supervisor",
-            company: "STB",
-            timeWindow: "Jul 2007 – Jan 2009",
-            where: "Rome, Italy",
-            description:
-                "Responsible for the overall administrative functions of the organization and often oversee the support of executives, as well. Supervising administrative staff, office managers and staff assistants, offering guidance and training while delegating work tasks and running payroll..",
-            
-        },
+                "Co-founded the company and played a pivotal role in its growth and online presence. Spearheaded the web design initiatives, driving significant traffic increase through effective blogging and SEO strategies. Hosted radio programs and managed a blogging platform, honing communication and content creation skills."
+        }
     ],
     education: [
         {
-            nameInstitute: "Udemy",
-            educationLevel: "Licenses & Certifications",
-            field: "Angular Firebase & Firestore Masterclass",
-            when: "May 2020",
-            where: "",
-            
-        },
-        {
-            nameInstitute: "Udemy",
-            educationLevel: "Licenses & Certifications",
-            field: "Testing Angular 4 (previously Angular 2) Apps with Jasmine",
-            when: "Feb 2020",
-            where: "",
-            
-        },
-        {
-            nameInstitute: "Udemy",
-            educationLevel: "Licenses & Certifications",
-            field: "Angular Crash Course for Busy Developer",
-            when: "Jul 2018",
-            where: "",
-            
-        },
-        {
             nameInstitute: "General Assembly",
             educationLevel: "Licenses & Certifications",
-            field:
-                "An intensive full-time programme, teaching the fundamentals of Web Development through practical application delivered by industry experts. Throughout the course, we have built on working practises around TDD, daily standup, pair programming and presenting code to ensure real-world application.",
-            when: "May 2017 – Aug 2017",
+            field: "Full Stack Developer Certificate",
+            when: "May 2017 - Aug 2017",
             where: "London, United Kingdom",
-            
         },
         {
             nameInstitute: "Università degli Studi di Parma",
             educationLevel: "Master's degree",
-            field: "Sales, Distribution, and Marketing Operations",
+            field: "Trade Marketing and Trading Strategies",
             when: "2010 - 2012",
             where: "Parma, Italy",
-            
         },
         {
             nameInstitute: "Università degli Studi di Roma Tre",
             educationLevel: "Bachelor's degree",
-            field: "Business Administration and Management",
+            field: "Company and Market Economics",
             when: "2002 - 2007",
             where: "Roma, Italy",
-            
-        },
+        }
     ],
-};
+}
+
 
 export function getExpericencesAndEducation() {
     return about;
