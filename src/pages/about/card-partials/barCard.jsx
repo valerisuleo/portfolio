@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import BootstrapCard from "../../../components/common/bootstrap-card/bootstrapCard";
-import BarGraph from "../../../components/common/bar-graph/barGraph";
+import BootstrapCard from "../../../shared/library/bootstrap-card/bootstrapCard";
+import BarGraph from "../../../shared/library/bar-graph/barGraph";
 
 class BarSkillsCard extends Component {
     renderAside() {

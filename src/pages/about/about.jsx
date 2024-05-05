@@ -3,7 +3,7 @@ import "./about.scss";
 import * as http from "./service";
 import highChartBarOptions from "./highChartBarOptions";
 
-import BootstrapJumbotron from "../../components/common/bootstrap-jumbotron/bootstrapJumbotron";
+import BootstrapJumbotron from "../../shared/library/bootstrap-jumbotron/bootstrapJumbotron";
 import ExperienceCard from "./card-partials/experinceCard";
 import EducationCard from "./card-partials/educationCard";
 import BarSkillsCard from "./card-partials/barCard";

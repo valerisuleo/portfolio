@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import BootstrapCard from "../../components/common/bootstrap-card/bootstrapCard";
-import BtnCustom from "../../components/common/btn-custom/btnCustom";
+import BootstrapCard from "../../shared/library/bootstrap-card/bootstrapCard";
+import BtnCustom from "../../shared/library/btn-custom/btnCustom";
 
 class ProjectsCard extends Component {
 

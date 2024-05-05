@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import BootstrapCard from "../../../components/common/bootstrap-card/bootstrapCard";
+import BootstrapCard from "../../../shared/library/bootstrap-card/bootstrapCard";
 import './card.scss'
 
 class ExperienceCard extends Component {

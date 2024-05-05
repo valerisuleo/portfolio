@@ -1,7 +1,7 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import { Outlet } from "react-router-dom";
-import NavMobile from "../components/nav-mobile/navMobile";
-import CloseWindow from "../components/close-window/closeWindow";
+import NavMobile from "../shared/nav-mobile/navMobile";
+import CloseWindow from "../shared/library/close-window/closeWindow";
 
 const Layout = () => {
     return (
