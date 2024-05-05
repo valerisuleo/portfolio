@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import './App.scss';
-import RouterModule from './router';
+import React, { Component } from "react";
+import "./App.scss";
+import { router } from "./router";
+import { RouterProvider } from "react-router-dom";
 
 class App extends Component {
     render() {
-        return (
-            <RouterModule></RouterModule>
-        );
+        return <RouterProvider router={router}></RouterProvider>;
     }
 }
 
