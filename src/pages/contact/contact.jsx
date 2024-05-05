@@ -68,12 +68,12 @@ class Contact extends Component {
                                             <p>FullStack Developer</p>
 
                                             <p>
-                                                <a href="https://github.com/valeriorisuleo">
+                                                <a href="https://github.com/valerisuleo">
                                                     github/valeriorisuleo
                                                 </a>
                                             </p>
                                             <p>
-                                                <a href="https://www.linkedin.com/in/valerio-risuleo/">
+                                                <a href="https://www.linkedin.com/in/vr82">
                                                     linkedin/valerio-risuleo
                                                 </a>
                                             </p>
