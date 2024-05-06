@@ -77,7 +77,7 @@ class Contact extends Component {
                                                     linkedin/valerio-risuleo
                                                 </a>
                                             </p>
-                                            <p>www.valerisuleo.it</p>
+                                            {/* <p>www.valerisuleo.it</p> */}
                                             {/* <p>
                                                 <a href="tel:07930226925">
                                                     +44 7930 22.69.25
