@@ -27,22 +27,22 @@ class About extends Component {
     }
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
-      };
+        window.removeEventListener("scroll", this.handleScroll);
+    }
 
     refOffSet = React.createRef();
 
     handleScroll = () => {
-        const lastScrollY = window.scrollY;        
+        const lastScrollY = window.scrollY;
         const { offsetTop } = this.refOffSet.current;
         const isVisible = { isVisible: true };
         const waitForit = { waitForit: true };
         const isGifChanged = { isGifChanged: true };
 
         if (lastScrollY >= offsetTop) {
-            this.delay(isVisible, 500)
-            this.delay(waitForit, 3000)
-            this.delay(isGifChanged, 4300)
+            this.delay(isVisible, 500);
+            this.delay(waitForit, 3000);
+            this.delay(isGifChanged, 4300);
         }
     };
 
@@ -68,7 +68,7 @@ class About extends Component {
             isVisible,
             options,
             waitForit,
-            isGifChanged
+            isGifChanged,
         } = this.state;
 
         return (
@@ -94,15 +94,18 @@ class About extends Component {
                     <div className="col-12">
                         <div className="alert alert-secondary mb-5">
                             <p className="p-3">
-                                "Valerio is hardworking and super keen. He puts
-                                in the effort and hours to learn new and tricky
-                                aspects of programming, and always pushes
-                                forward. He's a lot of fun to work with and a
-                                great personality to have in any team." - Ben
-                                Fox, Front End Team Lead @ appScatter.
+                                "Valerio excelled at Virgin Media with his
+                                expertise in JavaScript and Angular, inspiring
+                                his team to produce high-quality work. He is an
+                                effective leader and mentor, known for his
+                                detailed and creative approach, and for driving
+                                project success by breaking down complex
+                                concepts. I highly recommend him for any senior
+                                or lead frontend engineering role." - Alex Marti,
+                                Director of Digital Experience @ Virgin Media.
                             </p>
                         </div>
-                        
+
                         <h4>Experiences</h4>
                         {experience.map((item, i) => (
                             <ExperienceCard
@@ -118,10 +121,10 @@ class About extends Component {
                                 <Fragment>
                                     <h4>Skills</h4>
                                     <BarSkillsCard
-                                    options={options}
-                                    waitForit={waitForit}
-                                    isGifChanged={isGifChanged}
-                                />
+                                        options={options}
+                                        waitForit={waitForit}
+                                        isGifChanged={isGifChanged}
+                                    />
                                 </Fragment>
                             ) : null}
                         </div>
