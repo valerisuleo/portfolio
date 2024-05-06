@@ -101,7 +101,7 @@ class About extends Component {
                                 detailed and creative approach, and for driving
                                 project success by breaking down complex
                                 concepts. I highly recommend him for any senior
-                                or lead frontend engineering role." - Alex Marti,
+                                or lead frontend engineering role." - Alex Martin,
                                 Director of Digital Experience @ Virgin Media.
                             </p>
                         </div>
