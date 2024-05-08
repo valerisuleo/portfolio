@@ -7,7 +7,7 @@ const BtnCustom = (props) => {
     
     return (
         <div>
-            <a href={`https://github.com/valeriorisuleo/${github}`}>
+            <a href={`https://github.com/valerisuleo/${github}`}>
                 <div className="button one">
                     <div className="insider"></div>
                     view project
