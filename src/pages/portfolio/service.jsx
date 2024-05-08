@@ -12,6 +12,12 @@ const projects = [
         github: "project-2",
     },
     {
+        title: "Organic Shop",
+        body: "Organic Shop is a real-world e-commerce application built with Angular, Firebase, and Bootstrap 4. It provides a seamless online shopping experience for users looking for organic products. The application is designed with responsive web design principles to ensure a smooth user experience across various devices and screen sizes.",
+        path: "",
+        github: "organic-shop",
+    },
+    {
         title: "Game Hub",
         body: "A cutting-edge React application designed for discovering and engaging with a vast array of video games. Leveraging the latest in web technologies, GamePoint offers an immersive experience, allowing users to explore, filter, and learn about their favorite games with ease..",
         path: "",
